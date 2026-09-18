@@ -1,0 +1,62 @@
+{
+  "asset": {
+    "version": "2.0",
+    "extensions": {
+      "KHR_xmp_json_ld": {
+        "packet": 0
+      }
+    }
+  },
+  "extensionsUsed": [
+    "KHR_xmp_json_ld"
+  ],
+  "extensions": {
+    "KHR_xmp_json_ld": {
+      "packets": [
+        {
+          "@context": {
+            "dc": "http://purl.org/dc/elements/1.1/",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+          },
+          "@id": "",
+          "dc:title": {
+            "@type": "rdf:Alt",
+            "rdf:_1": {
+              "@language": "en-us",
+              "@value": "Sample model"
+            }
+          },
+          "dc:creator": {
+            "@list": [
+              "CodeBrix test suite"
+            ]
+          },
+          "dc:description": {
+            "@type": "rdf:Alt",
+            "rdf:_1": {
+              "@language": "en-us",
+              "@value": "A glTF document that carries one XMP packet."
+            }
+          },
+          "dc:format": "model/gltf+json",
+          "dc:language": {
+            "@set": [
+              "en"
+            ]
+          },
+          "dc:subject": {
+            "@set": [
+              "test",
+              "metadata"
+            ]
+          },
+          "dc:date": {
+            "@list": [
+              "2026-09-17"
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
