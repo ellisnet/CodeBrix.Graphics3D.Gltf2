@@ -631,9 +631,12 @@ GltfDemo.csproj:
         <TargetFramework>net10.0</TargetFramework>
       </PropertyGroup>
       <ItemGroup>
-        <PackageReference Include="CodeBrix.Graphics3D.Gltf2.MitLicenseForever" Version="*" />
+        <PackageReference Include="CodeBrix.Graphics3D.Gltf2.MitLicenseForever" />
       </ItemGroup>
     </Project>
+
+(The Version attribute is omitted on purpose - add the current version, or use
+central package management.)
 
 Program.cs:
 
